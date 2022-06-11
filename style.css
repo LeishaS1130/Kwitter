@@ -1,0 +1,186 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image:url("bubble.svg");
+font-family: cursive;
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #3CA55C 0%, #B5AC49  51%, #3CA55C  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+ .btn-grad2 {background-image: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%)}
+ .btn-grad2 {
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;            
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+  }
+
+  .btn-grad2:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+  }
+
+
+  .btn-grad3 {background-image: linear-gradient(to right, #360033 0%, #0b8793  51%, #360033  100%)}
+  .btn-grad3 {
+	 margin: 10px;
+	 padding: 15px 45px;
+	 text-align: center;
+	 text-transform: uppercase;
+	 transition: 0.5s;
+	 background-size: 200% auto;
+	 color: white;            
+	 box-shadow: 0 0 20px #eee;
+	 border-radius: 10px;
+	 display: block;
+   }
+
+   .btn-grad3:hover {
+	 background-position: right center; /* change the direction of the change here */
+	 color: #fff;
+	 text-decoration: none;
+   }
+  
+ label {
+	 color:rgb(255, 145, 0);
+	 font-size: 25px;
+ }
+
+          
+ .btn-grad4 {
+	background-image: linear-gradient(to right, #ff9f45 0%, #f8bf2e  51%, #ff9a3b  100%);
+	margin: 10px;
+	padding: 5px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: rgb(0, 0, 0);            
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+	font-size: 15px;
+  }
+
+  .btn-grad4:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+  }
+ 
